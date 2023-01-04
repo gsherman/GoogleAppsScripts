@@ -97,6 +97,8 @@ Here are a few timings from running this script, which should help you estimate 
 ### More details
 * [Dovetail knowledgebase article: Example: Using the Dovetail API to create cases from data in a Google Sheet](https://support.dovetailsoftware.com/selfservice/solutions/show/1207)
 
+### As Is
+These examples are provided "AS IS". Developer makes no other warranties, express or implied, and hereby disclaims all implied warranties, including any warranty of merchantability and warranty of fitness for a particular purpose.
 
 
 
