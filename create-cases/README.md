@@ -27,7 +27,7 @@ Output Columns:
 * warnings	
 * errors															
 
-![sheet.png](/images/sheet.png)
+![sheet.png](images/sheet.png)
 
 Example: https://docs.google.com/spreadsheets/d/1s0AN4sDUtuGlqJQ2WnF_4peCt2_zoFaL_vgzqd8k8a0/edit?usp=sharing
 
@@ -67,7 +67,7 @@ Run the function again, and the cases will get created.
 Here's an example showing the sheet after a script run (with dryRun=false)
 Notice that the output columns have been populated, including the newly created case IDs, response code, and any errors.
 
-![sheet2.png](/images/sheet2.png)
+![sheet2.png](images/sheet2.png)
 
 ### Tips
 * Once the script run starts, don't close the Execution Log, as this may cause the script run to be cancelled
