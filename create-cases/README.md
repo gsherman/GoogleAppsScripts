@@ -1,14 +1,6 @@
 # create-cases Google Apps Scripts
 Example script for creating dovetail cases from a Google Sheet. 
 
-More details: [Dovetail knowledgebase article: Example: Using the Dovetail API to create cases from data in a Google Sheet](https://support.dovetailsoftware.com/selfservice/solutions/show/1207)
-
-### Dependencies 
-#### LongRun: allows for long-running Google Apps Scripts (over 6 minutes)
-* Script: https://github.com/inclu-cat/LongRun/blob/main/generated-gs/LongRun.gs
-* Repo: https://github.com/inclu-cat/LongRun
-* Blog: https://inclu-cat.net/2021/12/14/an-easy-way-to-deal-with-google-apps-scripts-6-minute-limit/
-
 
 ### Create a new Google Sheet 
 
@@ -40,6 +32,12 @@ Example: https://docs.google.com/spreadsheets/d/1s0AN4sDUtuGlqJQ2WnF_4peCt2_zoFa
 * origin is optional. If not specified, the default origin will be used
 
 
+### Dependencies 
+#### LongRun: allows for long-running Google Apps Scripts (over 6 minutes)
+* Script: https://github.com/inclu-cat/LongRun/blob/main/generated-gs/LongRun.gs
+* Repo: https://github.com/inclu-cat/LongRun
+* Blog: https://inclu-cat.net/2021/12/14/an-easy-way-to-deal-with-google-apps-scripts-6-minute-limit/
+
 ### Scripts
 1. From the Google Sheet menu: Extensions --> Apps Scripts
 1. Add the create-cases.gs script
@@ -47,8 +45,8 @@ Example: https://docs.google.com/spreadsheets/d/1s0AN4sDUtuGlqJQ2WnF_4peCt2_zoFa
     * Click on the + button to add a file, of type Script
     * Paste the copied script into your script editor window
 1. Add the LongRun.gs script
-    * Copy the LongRun.gs script
-	* Click on the + button to add a file, of type Script
+    * Copy the [LongRun.gs script](https://github.com/inclu-cat/LongRun/blob/main/generated-gs/LongRun.gs)
+    * Click on the + button to add a file, of type Script
     * Paste the copied script into your script editor window
 
 1. Edit the create-cases.gs script, setting your loginName, password, and caseApiUrl (using your tenant)
@@ -95,6 +93,9 @@ Here are a few timings from running this script, which should help you estimate 
 | 1000 | False | 727s | 12 | 0.7 s/case
 
 
+
+### More details
+* [Dovetail knowledgebase article: Example: Using the Dovetail API to create cases from data in a Google Sheet](https://support.dovetailsoftware.com/selfservice/solutions/show/1207)
 
 
 
